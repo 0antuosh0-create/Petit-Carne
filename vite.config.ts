@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
-  base: "/<Petit Carne>/", // 👈 اسم ریپوی گیت‌هابت رو جایگزین کن (مثلا /my-project/)
+  base: "/<Petit-Carne>/", // 👈 اسم ریپوی گیت‌هابت رو جایگزین کن (مثلا /my-project/)
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
